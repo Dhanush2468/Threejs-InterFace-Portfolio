@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.scss">
+    <title>White Devil</title>
+  </head>
+  <body>
+
+    <!-- canvas content -->
+    <div class="canvas-container">
+      <canvas></canvas>
+    </div>
+
+    <!-- loading content -->
+    <div class="loading">
+      <img src="/images/logo.png" alt="">
+      <div class="value">
+        <span class="percent">0</span>
+        <span class="unit">%</span>
+      </div>
+    </div>
+    
+
+    <div class="nav">
+      <div class="item nav-about">ABOUT</div>
+      <img src="images/logo.png" alt="logo" class="logo">
+      <div class="item nav-works">WORKS</div>
+
+    </div>
+    <!-- about -->
+    <div class="about">
+      <div class="base">
+        <div class="item">
+          <div class="label">Name</div>
+          <div class="value">Dhanush</div>
+        </div>
+        <div class="item">
+          <div class="label">Age</div>
+          <div class="value">23</div>
+        </div>
+        <div class="item">
+          <div class="label">From</div>
+          <div class="value">India</div>
+        </div>
+      </div>
+      <!-- skills -->
+      <div class="skills">
+        <div class="title">Skills</div>
+        <div class="item">
+          <div class="label">Vue</div>
+          <div class="content">
+            <div class="value" style="background-color: #42B882; width: 80%;"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="label">WebGL</div>
+          <div class="content">
+            <div class="value" style="background-color: #FF0000; width: 30%;"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="label">Threejs</div>
+          <div class="content">
+            <div class="value" style="background-color: #333333; width: 60%;"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="label">ReactJs</div>
+          <div class="content">
+            <div class="value" style="background-color: #b7e9f8; width: 50%;"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="label">Blender</div>
+          <div class="content">
+            <div class="value" style="background-color: #d97935; width: 20%;"></div>
+          </div>
+        </div>
+      </div>
+        <div class="title">Contacts</div>
+      <div class="contacts">
+        <a href="https://github.com/Dhanush2468" class="github" target="_blank">
+          <img src="/images/icon-github.png" alt="">
+        </a>
+        <a href="https://twitter.com/DhanushG02" class="twitter" target="_blank">
+          <img src="/images/icon-twitter.png" alt="">
+        </a>
+        <a class="email">
+          <img src="/images/icon-email.png" alt="">
+          dhanushgollavilli02@gmail.com
+        </a>
+      </div>
+      <div class="about-close">
+        <img src="/images/close.svg" alt="">
+      </div>
+      
+    </div>
+    <!-- works -->
+    <div class="works">
+      <div class="slide">
+        <div class="item">
+          <div class="cover">
+            <img src="/images/cover-vue-resume.png" alt="">
+          </div>
+          <div class="info">
+            <div class="title">vue-resume</div>
+            <div class="desc">Resume template based on Vue</div>
+            <div class="actions">
+              <a class="code" href="https://github.com/Dhanush2468/Resume-Portfolio" target="_blank">code</a>
+              <a class="live" href="https://whitedevil-resume-portfolio.netlify.app/" target="_blank">live preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cover">
+            <img src="/images/cover-threejs-example.png" alt="">
+          </div>
+          <div class="info">
+            <div class="title">Bonik-Ecom-Site</div>
+            <div class="desc">This is a place where I post sketches, experiments and the like based on ReactJs</div>
+            <div class="actions">
+              <a class="code" href="https://github.com/Dhanush2468/Ecom-Site?tab=readme-ov-file" target="_blank">code</a>
+              <a class="live" href="https://648e99873722947deac636f5--sage-dusk-64ff08.netlify.app/" target="_blank">live preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="cover">
+            <img src="/images/cover-playground.png" alt="">
+          </div>
+          <div class="info">
+            <div class="title">Threejs-Christmas-Wishes</div>
+            <div class="desc">A Christmas playground modeled in blender, developed with Threejs</div>
+            <div class="actions">
+              <a class="code" href="https://github.com/Dhanush2468/Threejs-Christmas-Wishes" target="_blank">code</a>
+              <a class="live" href="https://threejs-christmas-wishes.vercel.app/" target="_blank">live preview</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="works-actions">
+        <div class="act pre">
+          <img src="/images/next.svg" alt="">
+        </div>
+        <div class="act close">
+          <img src="/images/close.svg" alt="">
+        </div>
+        <div class="act next">
+          <img src="/images/next.svg" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
